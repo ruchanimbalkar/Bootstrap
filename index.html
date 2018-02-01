@@ -86,13 +86,52 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-sm-3 align-self-center">
-                        <a type="button" class="btn btn-warning btn-sm btn-block" data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>" data-placement="bottom" href="#reserveform">
+                        <a type="submit"  input type ="button" class="btn-sm btn-block btn btn-warning" href="#reserveform">Reserve Table</a>    
                 </div>
             </div>
         </div>
     </header>
 
     <div class="container"> 
+        <div class="row row-content">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <img class="d-block img-fluid" src="img/uthappizza.png" alt="Uthappizza">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h2>Uthappizza <span class="badge badge-danger">HOT</span>
+                                        <span class="badge badge-pill badge-default">$4.99</span></h2>   
+                                        <p class="hidden-xs-down">A unique combination of Indian Uthappam (pancake) and
+                                                Italian pizza, topped with Cerignola olives, ripe vine
+                                                cherry tomatoes, Vidalia onion, Guntur chillies and
+                                                Buffalo Paneer.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block img-fluid" src="img/buffet.png" alt="Weekend Grand Buffet">
+                                    <div class="carousel-caption d-none d-md-block">
+                                            <h2> Weekend Grand Buffet  <span class="badge badge-danger">NEW</span> </h2>
+                                            <p class="hidden-xs-down">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                                    </div>    
+                                </div>
+                                <div class="carousel-item">
+                                        <img class="d-block img-fluid" src="img/alberto.png" alt="Alberto Somayya">
+                                        <div class="carousel-caption d-none d-md-block">
+                                                <h2>Alberto Somayya</h2>
+                                                <h4>Executive Chef</h4>
+                                                <p class="hidden-xs-down">Award winning three-star Michelin chef with wide
+                                                 International experience having worked closely with
+                                                 whos-who in the culinary world, he specializes in
+                                                  creating mouthwatering Indo-Italian fusion experiences.
+                                                 </p>
+                                        </div>  
+                                </div>
+                            </div>
+                </div>
+             </div>
+        </div>
+
         <div class = "row row-content align-items-center">
             <div class ="col-sm-4 col-md-3 flex-last ">
                 <!-- flex-last flex-first is an alternative for push and pull-->
@@ -275,11 +314,10 @@
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script>
-                $(document).ready(function(){
-                $('[data-toggle="tooltip"]').tooltip();
-                
-                 });
-        </script>
+        $(document).ready(function () {           
+            $('.mycarousel').carousel();       
+        });</script>
+
 
 </body>
 
