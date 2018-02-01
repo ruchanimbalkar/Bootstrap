@@ -64,3 +64,8 @@ body{
     left: 0;
     min-height: 300px;
 }
+
+
+.row-modal-footer{
+    padding-bottom: 1cm;
+}
