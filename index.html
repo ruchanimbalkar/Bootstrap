@@ -75,7 +75,7 @@
 
          
         <div id="reserveModal" class="modal fade" role="dialog">
-                <div class="modal-dialog modal-lg" role="content">
+                <div class="modal-dialog modal-md" role="content">
                     <div class="modal-content">
                             <!-- MODAL HEADER -->
                             <div class="modal-header">
@@ -85,60 +85,77 @@
                             <!-- MODAL BODY -->
                             <div class="modal-body">
                              <form class="form-inline">
-                                 <div class="form-group">
-                                    <label for="numberofguests" class="col-3  col-form-label"> Number of Guests</label>
-                                    <label class="custom-control custom-radio">
-                                        <input id="radio1" name="1" type="radio" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">1</span>
-                                    </label>
-                                    <label class="custom-control custom-radio">
+                                 <div class="container">
+                                 <div class= "row row-modal">  
+                                    <div class="form-group">
+                                     <label for="numberofguests" class="col-3  col-form-label"> Number of Guests</label>
+                                        <label class="custom-control custom-radio">
+                                            <input id="radio1" name="1" type="radio" class="custom-control-input">
+                                            <span class="custom-control-indicator"></span>
+                                            <span class="custom-control-description">1</span>
+                                        </label>
+                                        <label class="custom-control custom-radio">
                                                 <input id="radio2" name="2" type="radio" class="custom-control-input">
                                                 <span class="custom-control-indicator"></span>
                                                 <span class="custom-control-description">2</span>
-                                    </label>
-                                    <label class="custom-control custom-radio">
+                                        </label>
+                                        <label class="custom-control custom-radio">
                                                 <input id="radio3" name="3" type="radio" class="custom-control-input">
                                                 <span class="custom-control-indicator"></span>
                                                 <span class="custom-control-description">3</span>
-                                    </label>
-                                    <label class="custom-control custom-radio">
+                                         </label>
+                                        <label class="custom-control custom-radio">
                                                 <input id="radio4" name="4" type="radio" class="custom-control-input">
                                                 <span class="custom-control-indicator"></span>
                                                 <span class="custom-control-description">4</span>
-                                    </label>
-                                    <label class="custom-control custom-radio">
+                                        </label>
+                                        <label class="custom-control custom-radio">
                                                 <input id="radio5" name="5" type="radio" class="custom-control-input">
                                                 <span class="custom-control-indicator"></span>
                                                 <span class="custom-control-description">5</span>
-                                    </label>
-                                    <label class="custom-control custom-radio">
+                                        </label>
+                                        <label class="custom-control custom-radio">
                                                 <input id="radio6" name="6" type="radio" class="custom-control-input">
                                                 <span class="custom-control-indicator"></span>
                                                 <span class="custom-control-description">6</span>
-                                    </label>
-                                            
-                                </div>
+                                         </label>
+                                        </div>   
+                                    </div>       
+                                    </div>
+                                 
+                                <div class= "row row-modal row-justify-content-start">   
+                                    <div class="form-group">
+                                         <label for="section" class="col-3 col-md-3 col-form-label push-1 "> Section</label>
+                                        
+                                        <div class="btn-group col-md-3 push-1 " data-toggle="buttons">
+                                                <label class="btn btn-success btn-sm active">
+                                                  <input type="checkbox" checked autocomplete="off"> Non-Smoking
+                                                </label>
+                                                <label class="btn btn-danger btn-sm">
+                                                  <input type="checkbox" autocomplete="off"> Smoking
+                                                </label>
+                                        </div> 
+                                                                   
+                                     </div>
+                                </div>     
                                  
                                  <div class="form-group">
-                                 
-                                 </div>
-                                 
-                                 <div class="form-group">
-                                    <label for="dateandtime" class="col-12 col-md-2 col-form-label"> Date and Time</label>
-                                                <div class="col-12 col-sm-3 col-md-4">
+                                    <label for="dateandtime" class="col-3 col-md-2 col-form-label"> Date and Time</label>
+                                            <div class="row justify-content-start">
+                                                <div class="col-3 col-sm-3  ">
                                                     <div class="input-group">
                                                         <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
                                                         <input  class="form-control" id="date" name="date" placeholder="Date">
                                                 
                                                     </div>
                                                 </div>
-                                            <div class="col-12 col-sm-3 col-md-4">
+                                            <div class="col-3 col-sm-3 ">
                                                 <div class="input-group">
                                                     <div class="input-group-addon "><i class="fa fa-clock-o"></i></div>
                                                     <input  class="form-control" id="time" name="time" placeholder="Time">
                                                 </div>
                                             </div>
+                                        </div>
                                  </div>
                                  
                        
@@ -148,16 +165,15 @@
                             </div>
                             <!-- MODAL FOOTER -->
                             <div class="row row-modal-footer">
-                                 <div class="offset-md-2 col-md-4">
-                                    <button type="cancel" class="btn btn-secondary center-block">Cancel</button> 
+                                 <div class="offset-md-2 col-4 col-md-6">
+                                    <button type="cancel" class="btn btn-secondary center-block">Cancel</button>
                                     <button type="submit" class="btn btn-primary center-block">Reserve</button>
-                                </div>
+                                 </div>
                             </div>
-                
-                
+                        </div>     
                     </div>
                 </div>
-            </div>
+            
 
     <header class = "jumbotron">
         <div class = "container">
