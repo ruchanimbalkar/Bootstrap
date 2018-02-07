@@ -76,9 +76,3 @@ body{
     /* border-bottom:1px ridge;
     min-height: 15px; */
 }
-
-#carouselButtons {
-    right:0px;
-    position: absolute;
-    bottom: 0px;
-}

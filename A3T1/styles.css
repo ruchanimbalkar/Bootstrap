@@ -69,16 +69,3 @@ body{
 .row-modal-footer{
     padding-bottom: 1cm;
 }
-
-.row-modal{
-    /* margin:0px auto; */
-    padding: 10px 0px 10px 0px;
-    /* border-bottom:1px ridge;
-    min-height: 15px; */
-}
-
-#carouselButtons {
-    right:0px;
-    position: absolute;
-    bottom: 0px;
-}
