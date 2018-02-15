@@ -20,4 +20,9 @@ $(document).ready(function(){
         $("#reservationModal").modal('toggle')
     });
 
+    // Assignment 4 Task 3
+    $("#login-button").click(function(){
+        $("#loginModal").modal('toggle')
+    });
+
 });
