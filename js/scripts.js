@@ -14,4 +14,10 @@ $(document).ready(function(){
         }
     });
 
+   
+    // Assignment 4 Task 2
+    $("#reserve-button").click(function(){
+        $("#reservationModal").modal('toggle')
+    });
+
 });
