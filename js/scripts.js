@@ -14,15 +14,18 @@ $(document).ready(function(){
         }
     });
 
+    
+ // Assignment 4 Task 2
+ $("#reserve-button").click(function(){
+    $("#reservationModal").modal('toggle')
+});
    
-    // Assignment 4 Task 2
-    $("#reserve-button").click(function(){
-        $("#reservationModal").modal('toggle')
-    });
-
-    // Assignment 4 Task 3
+     // Assignment 4 Task 3
     $("#login-button").click(function(){
-        $("#loginModal").modal('toggle')
+           $("#loginModal").modal('show');
     });
+   
 
 });
+
+ 
